@@ -24,11 +24,13 @@ class ChunkState(TypedDict):
     """
     chunk: str
 
+
 class PairListState(ChunkState):
     """
     TypedDict for the state of the instruction-response pairs in the LangGraph workflow.
     """
     pairs: list[dict]
+
 
 class InstructionResponse(BaseModel):
     """
