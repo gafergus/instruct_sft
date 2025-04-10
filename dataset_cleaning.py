@@ -11,6 +11,7 @@ from nltk.tokenize import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+
 client = OpenAI()
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
